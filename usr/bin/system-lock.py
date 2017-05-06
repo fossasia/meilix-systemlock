@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from gi.repository import Gtk
 from gi.repository import Gio
 import sys
@@ -89,7 +89,7 @@ class SystemLock(Gtk.Application):
             widget.destroy()
         elif response_id == Gtk.ResponseType.OK:
             win = self.create_spinner()
-            print self.command
+            print (self.command)
             if (self.command == 0):
                 p = subprocess.Popen(['gksu','sh /etc/system-lock/lock.sh'])
             else:
