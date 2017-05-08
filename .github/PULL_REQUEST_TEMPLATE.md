@@ -5,6 +5,5 @@ I have:
 
 ### For the reviewers
 I have:
-- [ ] Reviewed this pull request by an authorized contributor.
+- [ ] Reviewed this pull request as an authorized contributor.
 - [ ] The reviewer is assigned to the pull request.
-
