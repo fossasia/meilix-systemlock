@@ -1,5 +1,6 @@
 # Maintainer: xeon-zolt <xeon.harsh@gmail.com>
 
+<<<<<<< Updated upstream
 pkgname=Melix System lock
 pkgver=1
 pkgrel=1
@@ -45,4 +46,25 @@ check() {
 package() {
 	cd "$pkgname-$pkgver"
 	make DESTDIR="$pkgdir/" install
+=======
+pkgname=Melix-System-lock
+pkgver=1
+pkgrel=1
+
+pkgdesc="Melix System Lock"
+arch=('i686' 'x86_64')
+url="https://github.com/fossasia/meilix-systemlock"
+license=('GPL')
+
+source=("$pkgname-$pkgver.zip")
+
+sha256sums=('198f15bf8a71c147ca7689b3c85254880de6ffedf5721df03352286432590098')
+
+package() {
+	cd "$srcdir/${pkgname}-${pkgver}"
+	
+	cp -R etc ${pkgdir}/etc
+	cp -R usr ${pkgdir}/usr
+    find ${Spkgdir} -type d -exec chmod 755 {} \;
+>>>>>>> Stashed changes
 }
