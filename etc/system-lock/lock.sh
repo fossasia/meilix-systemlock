@@ -64,7 +64,7 @@ fi
 sudo chmod +x /etc/rc.local
 fi
 
-if [ $is_success = true ]; then
-sudo reboot
-fi
+#if [ $is_success = true ]; then
+#sudo reboot
+#fi
 
