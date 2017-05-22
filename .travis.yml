@@ -3,10 +3,6 @@ language: generic
 
 sudo: required
 
-before_install:
-- chmod +x etc/system-lock/lock.sh
-- chmod +x etc/system-lock/unlock.sh
-
 script: etc/system-lock/lock.sh
 
 after_success: etc/system-lock/unlock.sh
