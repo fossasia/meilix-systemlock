@@ -56,7 +56,7 @@ if [ -d /etc/.ofris ]; then
 sudo rsync -a --delete /home/$ofris_user /etc/.ofris/
 else
 sudo mkdir /etc/.ofris/
-if [ $ofris_user != "" ]; then
+if [[ $ofris_user != "" ]]; then
 sudo mkdir /etc/.ofris/$ofris_user
 fi
 sudo rsync -a --delete /home/$ofris_user /etc/.ofris/
