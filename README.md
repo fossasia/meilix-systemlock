@@ -1,13 +1,14 @@
 # systemlock
 
 [![Build Status](https://travis-ci.org/fossasia/meilix-systemlock.svg?branch=master)](https://travis-ci.org/fossasia/meilix-systemlock)
+[![Join the chat at https://gitter.im/fossasia/meilix](https://badges.gitter.im/fossasia/meilix.svg)](https://gitter.im/fossasia/meilix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Meilix system lock
 
 It just freezes the system whenever it is executed.
 
 ## Communication
-Chat: [Slack Channel](http://fossasia.slack.com/messages/linux/) | [Get an Invite](http://fossasia-slack.herokuapp.com/)
+Chat: https://gitter.im/fossasia/meilix
 
 ## Contributions, Bug Reports, Feature Requests
 
