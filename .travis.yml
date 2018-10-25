@@ -3,7 +3,7 @@ language: generic
 
 sudo: required
 
-script: etc/system-lock/lock.sh
+script: 
 
-after_success: etc/system-lock/unlock.sh
+after_success: 
 
