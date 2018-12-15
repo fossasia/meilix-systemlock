@@ -1,3 +1,9 @@
+systemlock (0.1-1) UNRELEASED; urgency=medium
+
+  * Seperate debian release for systemlock
+
+ -- Pranav Kulshrestha <hulkcodexl16@gmail.com>  Sun, 16 Dec 2018 00:05:15 +0530
+
 systemlock (0.1-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
