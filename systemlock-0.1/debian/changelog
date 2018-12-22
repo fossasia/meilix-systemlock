@@ -1,5 +1,11 @@
+systemlock (0.1-1) UNRELEASED; urgency=medium
+
+  * Closes itp bug
+
+ -- Pranav Kulshrestha <hulkcodexl16@gmail.com>  Sat, 22 Dec 2018 19:27:56 +0530
+
 systemlock (0.1-1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release  
 
  -- x-mario <vanhonit@gmail.com>  Mon, 24 Dec 2012 14:43:26 +0700
