@@ -1,9 +1,16 @@
-# This provides us with GCC binary support so we can run bash
 language: generic
-
+include:
+- os: linux
+addons:
+  apt:
+    update: true
 sudo: required
-
-script: 
-
-after_success: 
-
+git:
+  depth: 22
+before_script:
+- sudo apt-get install devscripts debhelper
+script:
+- chmod +x debuild.sh
+- "./debuild.sh |& tee log.txt"
+notifications: 
+slack: fossasia:3pMkQrSogvEMfnu9aJDW2ZYC

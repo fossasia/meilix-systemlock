@@ -1,0 +1,18 @@
+#Build Files
+systemlock_0.1-1_amd64.build
+systemlock_0.1-1_amd64.buildinfo
+systemlock_0.1-1_amd64.changes
+systemlock_0.1-1.debian.tar.xz
+systemlock_0.1-1.dsc
+
+#Debain generated files
+/systemlock_0.1/debian/.debhelper/
+/systemlock_0.1/debian/files
+
+#Files for debhelper
+/systemlock_0.1/debian/systemlock.debhelper.log
+/systemlock_0.1/debian/systemlock.substvars
+
+
+
+
